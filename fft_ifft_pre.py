@@ -217,10 +217,10 @@ cal_ifft_out='C:/Users/1000297123/Desktop/cal_ifft__18fs_e780_p795_2fs.txt'
 #raw_data_ifft(file_raw,1300,50,80,file_fft_out,file_ifft_out)
 #cal_data_ifft(file_cal,1601,56,75,cal_fft_out,cal_ifft_out)
 
-#plt_ifft_data(file_ifft_out,1300,107,'k','Pitch 300 nm','-',2)
+plt_ifft_data(file_ifft_out,1300,109,'k','Pitch 300 nm','-',2)
 #plt_fft_data(file_fft_out,1300,'k','Block 300')
 
-# plt_ifft_data(cal_ifft_out,1601,0,'k','Cal 300 nm','-',2)
+plt_ifft_data(cal_ifft_out,1601,0,'darkorange','Cal 300 nm','-',2)
 # plt_fft_data(cal_fft_out,1601,'k','cal')
 
 
